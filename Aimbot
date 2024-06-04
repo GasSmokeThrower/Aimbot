@@ -1,10 +1,10 @@
 local PLAYER = game.Players.LocalPlayer
 local CurrentCam  = game.Workspace.CurrentCamera
-local UIS = game:GetService("UserInputService")-- Made By Mick Gordon
+local UIS = game:GetService("UserInputService")-- Made By JX2
 local WorldToViewportPoint = CurrentCam.WorldToViewportPoint
 local mouseLocation = UIS.GetMouseLocation
 
-game:GetService("StarterGui"):SetCore("SendNotification", {Title = "Made By JX2", Text = "Enjoy !"})
+game:GetService("StarterGui"):SetCore("SendNotification", {Title = "Modded by JX2", Text = "Enjoy !"})
 
 local DeleteMob ={
     GUi = {
@@ -62,10 +62,10 @@ local DeleteMob ={
 
 			Color = Color3.fromRGB(75,0,10);
 		}
-	}-- Made By Mick Gordon
+	}-- JX2
 }
 
--- Made By Mick Gordon
+-- JX2
 local Fov = Instance.new("ScreenGui")Fov.Name = "Fov" Fov.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui") Fov.ZIndexBehavior = Enum.ZIndexBehavior.Sibling Fov.ResetOnSpawn = false-- i miss you synapse fov
 local TracersG = Instance.new("ScreenGui")TracersG.Name = "Tracers" TracersG.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui") TracersG.ZIndexBehavior = Enum.ZIndexBehavior.Sibling TracersG.ResetOnSpawn = false
 local FOVFFrame = Instance.new("Frame")FOVFFrame.Parent = Fov FOVFFrame.Name = "FOVFFrame" FOVFFrame.BackgroundColor3 = Color3.fromRGB(255, 255, 255) FOVFFrame.BorderColor3 = Color3.fromRGB(0, 0, 0) FOVFFrame.BorderSizePixel = 0 FOVFFrame.BackgroundTransparency = 1 FOVFFrame.AnchorPoint = Vector2.new(0.5, 0.5) FOVFFrame.Position = UDim2.new(0.5, 0,0.5, 0) FOVFFrame.Size = UDim2.new(0, DeleteMob.Aimbot.Fov, 0, DeleteMob.Aimbot.Fov) FOVFFrame.BackgroundTransparency = 1 
@@ -128,7 +128,7 @@ local function AddHighlight(plr)
 	end)
 	coroutine.resume(co)
 end
--- Made By Mick Gordon
+-- Made By JX2
 local function AddBox(player) -- Saves FPS 
 	local bbg = Instance.new("BillboardGui", BoxC)
 	bbg.Name = player.Name
