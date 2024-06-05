@@ -1,6 +1,6 @@
 local PLAYER = game.Players.LocalPlayer
 local CurrentCam  = game.Workspace.CurrentCamera
-local UIS = game:GetService("UserInputService")-- Made By JX2
+local UIS = game:GetService("UserInputService")-- Modded By JX2
 local WorldToViewportPoint = CurrentCam.WorldToViewportPoint
 local mouseLocation = UIS.GetMouseLocation
 
@@ -13,7 +13,7 @@ local DeleteMob ={
         Keybind = "z"; -- Menu Key Bind
     };
 	Aimbot= {
-        Keybind = "MouseButton2"; -- Change Aim Bot Key Bind Here !!! No Capitals, Unless it is MouseButton1 or MouseButton2
+        Keybind = "e"; -- Change Aim Bot Key Bind Here !!! No Capitals, Unless it is MouseButton1 or MouseButton2
 ------------------------------------------------------------------------------------------
 		Enabled = false; -- No Need To Change Anything Here As It Is On The GUI
 		TeamCheck = false;
